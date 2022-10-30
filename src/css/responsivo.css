@@ -1,0 +1,72 @@
+@media (max-width: 987px) {
+    body {
+        height: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        min-height: 650px;
+        width: 614px;
+        margin: 250px 10px 10px;
+    }
+
+    .card .imagens {
+        background: url(../images/bg-pattern-desktop.svg) no-repeat 50% 120%;
+        background-size: 80%;
+        height: 250px;
+        width: 614px;
+    }
+
+    .card .imagens .box {
+        top: -32%;
+        left: 10%;
+    }
+
+    .card .imagens .descktop {
+        top: -85%;
+        left: 12%;
+    }
+
+    .card .faq {
+        padding: 0 90px;
+    }
+
+    .card .faq li {
+        width: 434px;
+    }
+}
+
+@media (max-width: 654px) {
+    .card {
+        margin: 150px 10px 10px;
+        min-height: 550px;
+        width: 375px;
+    }
+
+    .card .imagens {
+        background: url(../images/bg-pattern-desktop.svg) no-repeat 18% 100%;
+        background-size: 40%;
+        height: 110px;
+    }
+
+    .card .imagens .box {
+        width: 15%;
+        top: -35%;
+        left: 10%;
+    }
+
+    .card .imagens .descktop {
+        width: 40%;
+        top: -100%;
+        left: 11%;
+    }
+
+    .card .faq {
+        padding: 30px 30px;
+    }
+
+    .card .faq li {
+        width: 315px;
+    }
+}

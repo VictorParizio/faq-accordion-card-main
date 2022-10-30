@@ -1,0 +1,11 @@
+:root {
+    --hover: hsl(14, 88%, 65%);
+
+    --bg-gradiente-top: hsl(273, 75%, 66%);
+    --bg-gradiente-botton: hsl(240, 73%, 65%);
+
+    --ativo: hsl(237, 12%, 33%);
+    --inativo: hsl(240, 6%, 50%);
+    
+    --linha: hsl(240, 5%, 91%);
+}
