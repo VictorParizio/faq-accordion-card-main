@@ -10,7 +10,7 @@ body {
     background-color: #fff;
     display: flex;
     border-radius: 25px;
-    height: 510px;
+    min-height: 510px;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
     margin: 10px 20px;
 }
@@ -42,7 +42,6 @@ body {
 
 .card .faq .title {
     font-size: 3.2rem;
-    text-transform: uppercase;
     margin-bottom: 24px;
 }
 
@@ -53,7 +52,7 @@ body {
 
 .card .faq .pergunta {
     cursor: pointer;
-    background-image: url(../images/icon-arrow-down.svg);
+    background: url(../images/icon-arrow-down.svg);
     background-repeat: no-repeat;
     background-position: top 6px right 0;
     background-size: 12px;
@@ -63,7 +62,8 @@ body {
     margin: 15px 0;
 }
 
-.card .faq .pergunta:hover {
+.card .faq .pergunta:hover,
+.card .faq .topico.mostrar .pergunta:hover {
     color: var(--hover);
 }
 
@@ -74,12 +74,12 @@ body {
     display: none;
 }
 
-.card .faq .pergunta.mostrar {
+.card .faq .topico.mostrar .pergunta{
     color: rgba(0, 0, 0);
     font-weight: 700;
 }
 
-.card .faq .resposta.mostrar {
+.card .faq .topico.mostrar .resposta{
     display: block;
 }
 

@@ -6,7 +6,6 @@
     .card {
         display: flex;
         flex-direction: column;
-        min-height: 650px;
         width: 614px;
         margin: 250px 10px 10px;
     }
@@ -19,13 +18,13 @@
     }
 
     .card .imagens .box {
-        top: -32%;
-        left: 10%;
+        top: -80px;
+        left: 60px;
     }
 
     .card .imagens .descktop {
-        top: -85%;
-        left: 12%;
+        top: -200px;
+        left: 40px;
     }
 
     .card .faq {
@@ -40,26 +39,26 @@
 @media (max-width: 654px) {
     .card {
         margin: 150px 10px 10px;
-        min-height: 550px;
         width: 375px;
     }
 
     .card .imagens {
-        background: url(../images/bg-pattern-desktop.svg) no-repeat 18% 100%;
-        background-size: 40%;
+        background: url(../images/bg-pattern-desktop.svg) no-repeat 45px -165px;
+        background-size: 280px;
         height: 110px;
+        width: 375px;
     }
 
     .card .imagens .box {
-        width: 15%;
-        top: -35%;
-        left: 10%;
+        width: 100px;
+        top: -40px;
+        left: 40px;
     }
 
     .card .imagens .descktop {
-        width: 40%;
-        top: -100%;
-        left: 11%;
+        width: 280px;
+        top: -125px;
+        left: 45px;
     }
 
     .card .faq {
